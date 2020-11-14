@@ -73,6 +73,7 @@ async function sendApiRequest() {
 
 function useApiData(data) {
   container.classList.remove("initial");
+  //remove the privious data search
   let useApiData = "";
   data.map((data) => {
     useApiData += `
